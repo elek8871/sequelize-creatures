@@ -38,7 +38,7 @@ You will need to create two models: one for `dinos` and one for `creatures`:
 
 ## Model CRUD
 
-Write an example of a `CRUD` action on each model in your entrypoint js file. Include examples of:
+Write an example of a `CRUD` action on each model in your entry point `.js` file. Include examples of:
 
 * `CREATE, READ, UPDATE`, and `DESTROY`  a dino
 * `CREATE, READ, UPDATE`, and `DESTROY` a creature
