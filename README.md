@@ -43,6 +43,8 @@ Write an example of a `CRUD` action on each model in your entry point `.js` file
 * `CREATE, READ, UPDATE`, and `DESTROY`  a dino
 * `CREATE, READ, UPDATE`, and `DESTROY` a creature
 
+Checkout the [gitbook notes](https://gasei.gitbook.io/sei/05-node-express/express-sequelize/usingmodels-async-await) on sequelize model queries for more info!
+
 ---
 
 ## Licensing
