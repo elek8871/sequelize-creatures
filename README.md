@@ -1,21 +1,47 @@
-<img src="https://i.imgur.com/sX12DTc.png" alt="Big GA Logo" />
-
-# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) This is an official looking deliverable 🤫
+# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Sequelize Creatures
 
 ---
 
-<details>
+Your task is to create a `dinosuars` model and `creatures` model using sequelize.
 
-  <summary> This is a hidden thing </summary>
+## Getting Started
 
-  <p>
+* fork and clone this repo
+* `cd sequelize-creatures`
+* set this repo up for npm modules _don't forget to .gitignore node_modules!_
+* install the required packages: `sequelize` and `pg`
+* touch an entry point `.js` file
+* [Set up](https://gasei.gitbook.io/sei/05-node-express/express-sequelize/03setup) this project to use sequelize
 
-  ```javascript
-  console.log('derp')
-  ```
+## Models
 
-  </p>
-</details>
+You will need to create two models: one for `dinos` and one for `creatures`:
+
+### Dino model
+
+| column name | type |
+|:-----------:|:----:|
+|id | integer |
+|name | text |
+|type | text |
+
+### Creature model
+
+| column name | type |
+|:-----------:|:----:|
+|id | integer |
+|img_url | text |
+|type | text |
+
+* Use the [sequelize cli](https://gasei.gitbook.io/sei/05-node-express/express-sequelize/03setup#create-a-model-and-a-matching-migration) to generate the above models.
+* after your models are created, don't forget to migrate them! 
+
+## Model CRUD
+
+Write an example of a `CRUD` action on each model in your entrypoint js file. Include examples of:
+
+* `CREATE, READ, UPDATE`, and `DESTROY`  a dino
+* `CREATE, READ, UPDATE`, and `DESTROY` a creature
 
 ---
 
